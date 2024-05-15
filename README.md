@@ -1,4 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎂 Интернет-магазин тортов 🍰</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 20px;
+            text-align: center;
+            color: #333;
+        }
+        
+        h1 {
+            color: #ff6600;
+            font-size: 2em;
+        }
 
-<h1 align="center">Здравствуйте, я <a href="https://moodle.surgu.ru/user/profile.php?id=47539" target="_blank">Ангелина Эфенди</a> 
-<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="center">Группа: 609-22. Проект: Интернет-магазин кондитерских изделий. Функции проекта: некий "конструктор" тортов, чтобы подошло любому по вкусу и виду, есть авторизация и персональные скидки, также можно добавлять в избранное, понравившиеся торты. <h3>
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6600;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #ff884d;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎂 Интернет-магазин тортов 🍰</h1>
+    <p>Добро пожаловать в удивительный мир вкусных тортов!</p>
+    <p>Здесь вы найдете лучшие торты для ваших праздников и радостей жизни.</p>
+    <a href="#" class="btn">Перейти к выбору тортов</a>
+</body>
+</html>
