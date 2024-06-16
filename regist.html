@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Регистрация</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="form-container">
+    <div class="name">Регистрация</div>
+       <form action="form-handler.php" method="post" enctype="multipart/form-data" class="registration-form">
+           <input type="text" name="username" placeholder="Введите ваше имя" required>
+           <input type="tel" name="phone" placeholder="Введите ваш телефон" required>
+           <input type="file" name="avatar">
+           <button type="submit" name="submit">Отправить</button>
+       </form> 
+   </div>
+</body>
+</html>
