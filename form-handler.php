@@ -1,3 +1,4 @@
+<!--form-handler.php -->
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Получаем данные из формы
