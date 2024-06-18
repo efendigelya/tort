@@ -9,14 +9,12 @@
    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <div class="form-container">
-    <div class="name">Регистрация</div>
-       <form action="form-handler.php" method="post" enctype="multipart/form-data" class="registration-form">
-           <input type="text" name="username" placeholder="Введите ваше имя" required>
-           <input type="tel" name="phone" placeholder="Введите ваш телефон" required>
-           <input type="file" name="avatar">
-           <button type="submit" name="submit">Отправить</button>
-       </form> 
-   </div>
+       <form class="form-container" action="form-handler.php" method="post" enctype="multipart/form-data" >
+    <div class="title">Регистрация</div>
+           <div class="container"> <input type="text" name="username" placeholder="Введите ваше имя" required></div>
+           <div class="container"><input type="tel" name="phone" placeholder="Введите ваш телефон" required></div>
+           <div class="container"><input type="file" name="avatar"></div>
+           <div class="container"><button type="submit" name="submit">Отправить</button></div>
+       </form>
 </body>
 </html>
